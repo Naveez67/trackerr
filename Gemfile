@@ -29,6 +29,7 @@ gem 'capistrano'
 gem 'capistrano-rails'
 gem 'capistrano-bundler'
 gem 'capistrano-rbenv'
+gem 'capistrano3-puma' 
 
 
 # Reduces boot times through caching; required in config/boot.rb
