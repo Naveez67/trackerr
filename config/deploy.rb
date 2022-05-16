@@ -7,7 +7,7 @@ set :repo_url, 'https://github.com/Naveez67/trackerr.git'
 set :deploy_to, '/home/ubuntu/trackerr'
 set :use_sudo, true
 set :linked_files, %w{config/master.key}
-set :branch, 'master'
+set :branch, 'main'
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
 set :rbenv_ruby, "3.1.1"
 set :user, "ubuntu"
@@ -25,7 +25,7 @@ set :user, "ubuntu"
 # set :format_options, command_output: true, log_file: "log/capistrano.log", color: :auto, truncate: :auto
 
 # Default value for :pty is false
-# set :pty, true
+set :pty, true
 
 # Default value for :linked_files is []
 # append :linked_files, "config/database.yml", 'config/master.key'
