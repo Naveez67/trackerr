@@ -5,7 +5,7 @@ require 'capistrano/rails/assets'
 require 'capistrano/rbenv'
 require 'capistrano/puma'
 install_plugin Capistrano::Puma
-# install_plugin Capistrano::Puma::Daemon
+install_plugin Capistrano::Puma::Systemd
 # require 'capistrano/yarn'
 require 'capistrano/bundler'
 require 'capistrano/scm/git'
