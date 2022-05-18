@@ -7,7 +7,7 @@ set :repo_url, 'https://github.com/Naveez67/trackerr.git'
 set :deploy_to, '/home/ubuntu/trackerr'
 set :use_sudo, true
 set :linked_files, %w{config/master.key}
-set :branch, 'main'
+set :branch, 'dev'
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
 set :rbenv_ruby, "3.1.1"
 set :user, "ubuntu"
