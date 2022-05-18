@@ -62,7 +62,7 @@
 server '54.90.198.71', user: 'ubuntu', roles: %w{web app db}
 set :ssh_options, {
     keys: %w(~/.ssh/id_rsa),
-    forward_agent: false,
+    forward_agent: true,
     config: false,
     auth_methods: %w(publickey password),
     verbose: :debug,
