@@ -41,7 +41,7 @@ group :development do
   gem 'capistrano-rails'
   gem 'capistrano-bundler'
   gem 'capistrano-rbenv'
-  gem 'capistrano3-puma' 
+  gem 'capistrano3-puma', github: "seuros/capistrano-puma"
 
   gem 'net-ssh', '>= 7.0.0.beta1 '
   gem 'ed25519', '>= 1.2', '< 2.0'
