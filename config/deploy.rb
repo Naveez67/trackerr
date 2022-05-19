@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.17.0"
 
-set :puma_conf, "/home/ubuntu/trackerr/shared/config/puma.rb"
+set :puma_conf, "/var/www/trackerr/shared/config/puma.rb"
 set :application, 'trackerr' 
 set :repo_url, 'https://github.com/Naveez67/trackerr.git'
 set :deploy_to, '/home/ubuntu/trackerr'
